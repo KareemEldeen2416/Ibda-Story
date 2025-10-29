@@ -68,6 +68,12 @@ h1{
   filter:drop-shadow(0 0 3px var(--primary-color))
 }
 
+.selected{
+  background-color: var(--secondary-color);
+  color:var(--primary-color);
+  filter:drop-shadow(0 0 3px var(--primary-color))
+}
+
 #submit{
   display: block;
   width: 150px;
@@ -82,6 +88,26 @@ h1{
   border-radius:20px;
   filter:drop-shadow(0 0 2px gray);
   cursor:pointer;
+}
+
+.final-result{
+  text-align: center;
+  margin-top:20px;
+}
+
+label{
+  color:var(--primary-color);
+  font-family: Kufam;
+  font-weight: bold;
+  font-size: 24pt;
+}
+
+.correct{
+  color:green;
+}
+
+.wrong{
+  color:red;
 }
 
 #submit:hover{
