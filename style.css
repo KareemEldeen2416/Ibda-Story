@@ -1,0 +1,90 @@
+:root{
+  --primary-color: #440381;
+  --secondary-color: #fed400;
+  --secondary-back-color:#fff9d9;
+  --primary-back-color:#f1e2fe;
+}
+
+body{
+  background-color: var(--primary-back-color);
+}
+
+.logo{
+  width: 50px;
+}
+
+nav{
+  background-color: white;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding:20px;
+  border-radius:20px
+}
+
+h1{
+  font-family: "Kufam";
+  color:var(--primary-color);
+}
+
+
+.story{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.story-image{
+  width: 200px;
+  border-radius:50px;
+  margin:50px;
+}
+
+.story-element{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+.order{
+  margin:10px;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color:white;
+  outline:none;
+  border:none;
+  border-radius: 50px;
+  cursor:pointer;
+  font-family: "Kufam";
+  font-weight: bold;
+}
+
+.order:hover{
+  background-color: var(--secondary-color);
+  color:var(--primary-color);
+  filter:drop-shadow(0 0 3px var(--primary-color))
+}
+
+#submit{
+  display: block;
+  width: 150px;
+  margin: 50px auto;
+  font-size: 16pt;
+  font-family: "Kufam";
+  font-weight: bold;
+  padding: 5px;
+  background-color: var(--secondary-color);
+  color:var(--primary-color);
+  border:none;
+  border-radius:20px;
+  filter:drop-shadow(0 0 2px gray);
+  cursor:pointer;
+}
+
+#submit:hover{
+  background-image: linear-gradient(45deg, var(--primary-color) , purple);
+  color:var(--secondary-color);
+}
